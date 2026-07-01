@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <h1>Image Gallery</h1>
+    <p>Modern Responsive Gallery with Filters & Lightbox</p>
+</header>
+
+<div class="filter-buttons">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="animals">Animals</button>
+</div>
+
+<section class="gallery">
+
+    <div class="card nature">
+        <img src="images/nature1.jpg">
+    </div>
+
+     <div class="card nature">
+        <img src="images/nature2.jpg">
+    </div>
+
+    <div class="card nature">
+        <img src="images/nature3.jpeg">
+    </div>
+
+    <div class="card nature">
+        <img src="images/nature4.jpeg">
+    </div>
+
+    <div class="card nature">
+        <img src="images/nature5.jpg">
+    </div>
+<!--#############################################################-->
+
+    <div class="card city">
+        <img src="images/city1.jpg">
+    </div>
+
+     <div class="card city">
+        <img src="images/city2.jpg">
+    </div>
+
+     <div class="card city">
+        <img src="images/city3.jpeg">
+    </div>
+<!--#############################################################-->
+
+
+    <div class="card animals">
+        <img src="images/animal1.jpg">
+    </div>
+
+    <div class="card animals">
+        <img src="images/animal2.jpg">
+    </div>
+
+    <div class="card animals">
+        <img src="images/animal3.jpeg">
+    </div>
+
+    <div class="card animals">
+        <img src="images/animal4.jpeg">
+    </div>
+
+    <div class="card animals">
+        <img src="images/animal5.jpeg">
+    </div>
+
+</section>
+
+<div class="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img">
+
+    <button class="next">&#10095;</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
